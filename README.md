@@ -1,35 +1,54 @@
-# TG Media Downloader Bot
+# tg-media-downloader-bot
 
-## ⚡️✨ Что умеет
-- Принимать ссылки на медиа/плейлисты, скачивать через yt-dlp и отдавать готовые файлы/архивы.
-- Сохранять историю задач и лимиты, чтобы не словить блокировку API.
-- Давать предпросмотр размера, предупреждать об ограничениях Telegram.
-- Поддерживать очередь фоновых задач с прогрессом и отменой.
+![License](https://img.shields.io/github/license/ShapArt/tg-media-downloader-bot)
+![Last Commit](https://img.shields.io/github/last-commit/ShapArt/tg-media-downloader-bot)
+![Language](https://img.shields.io/github/languages/top/ShapArt/tg-media-downloader-bot)
 
-## 🧠 Технологии
-- Python, Aiogram, yt-dlp, asyncio.
-- Redis/SQLite для очереди и лимитов.
-- Docker Compose для сборки и запуска.
+## EN Overview
+TG bot that downloads media by URL (yt-dlp)
 
-## 🖼️ Демо
-- Бот-демо: шаги «/start → вставить ссылку → выбор качества → файл/архив в ответ».
-- CLI: `python -m src.cli --url <link> --format mp4`.
+## RU Описание
+TG bot that downloads media by URL (yt-dlp)
 
-## 🧩 Архитектура
-- `src/bot.py` — хэндлеры и сценарии.
-- `src/services/downloader.py` — обертка над yt-dlp, контроль размера.
-- `src/services/tasks.py` — очередь, ретраи, лимиты.
-- `src/storage/*` — Redis/SQLite слой.
+## EN Features
+- Clear project purpose and maintainable structure.
+- Standardized community and contribution files.
+- Consistent documentation style across account repositories.
 
-## 🧭 Конфигурация
-- ENV: `BOT_TOKEN`, `REDIS_URL` (или `SQLITE_PATH`), `MAX_FILE_MB`, `WORKERS`.
-- Secrets держать только в `.env`, не коммитить.
+## RU Возможности
+- Понятная цель проекта и поддерживаемая структура.
+- Стандартизированные файлы сообщества и вклада.
+- Единый стиль документации во всех репозиториях аккаунта.
 
-## 🛡️ Тесты
-- Юниты: моки yt-dlp, проверка лимитов/очереди.
-- Интеграция: сценарий end-to-end через aiogram тестовый клиент.
+## EN Quick Start
+pip install -r requirements.txt
+python -m main
 
-## 🚀 Roadmap
-- ⚡️ Параллельные скачивания с приоритетами.
-- 🛰️ Поддержка прямых Telegram ссылок и re-upload.
-- 🔧 Автоочистка временных файлов и троттлинг API.
+## RU Быстрый старт
+pip install -r requirements.txt
+python -m main
+
+## EN Project Structure
+- .github/ - templates, policy files, CI config.
+- Source files and assets are stored in repository root or feature directories.
+
+## RU Структура проекта
+- .github/ - шаблоны, policy-файлы, конфиг CI.
+- Исходники и ресурсы находятся в корне или профильных директориях.
+
+## EN Roadmap
+- Improve test coverage and automation.
+- Keep docs aligned with actual project behavior.
+
+## RU Планы
+- Расширять покрытие тестами и автоматизацией.
+- Поддерживать документацию в актуальном состоянии.
+
+## EN Contributing
+See .github/CONTRIBUTING.md.
+
+## RU Вклад
+См. .github/CONTRIBUTING.md.
+
+## License / Лицензия
+See LICENSE.
