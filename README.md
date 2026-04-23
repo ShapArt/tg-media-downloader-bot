@@ -7,34 +7,33 @@
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/blob/main/LICENSE)
 
 ## RU
-Telegram bot that downloads media by URL via yt-dlp pipeline.
+**Слоган:** Медиа по ссылке без лишних шагов
 
-### Зачем этот проект
-- Оптимизация медиа и изображений для production
-- Ориентирован на практическое использование, а не «учебный шаблон».
-- Поддерживает единый стандарт качества профиля и репозиториев.
+Telegram-бот для загрузки медиа по URL: просто, быстро, масштабируемо.
+
+### Что даёт проект
+- Быстрый запуск и понятный вход в задачу.
+- Практичный сценарий использования, а не «игрушечный» демо-кейс.
+- Поддерживаемая структура для роста и автоматизации.
 
 ### Быстрый старт
-- Создай виртуальное окружение
-- Установи зависимости из requirements.txt
-- Запусти основной модуль по инструкции репозитория
+- Открой README/структуру проекта.
+- Запусти команды из текущего репозитория.
+- Используй шаблоны в .github/ для стандартизированного вклада.
 
 ### Для кого
-- Разработчики backend/automation решений.
-- Команды, которым нужна понятная архитектура и предсказуемый запуск.
+- Инженеры, которым важен результат, а не шум.
+- Команды, ценящие скорость внедрения и качество кода.
 
 ## EN
-Telegram bot that downloads media by URL via yt-dlp pipeline.
+**Tagline:** Медиа по ссылке без лишних шагов
 
-### Why this project
-- Оптимизация медиа и изображений для production
-- Built for practical delivery, not just a demo.
-- Follows a consistent engineering quality standard.
+Telegram bot for URL-based media downloading with reliable automation flow.
 
-### Quick start
-- Create virtual environment
-- Install requirements
-- Run main module from docs
+### Value proposition
+- Fast onboarding and clear project intent.
+- Production-minded structure for scaling and automation.
+- Consistent contribution and quality standards.
 
 ## Contribution
 See .github/CONTRIBUTING.md.
