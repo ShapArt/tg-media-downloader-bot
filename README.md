@@ -1,46 +1,39 @@
 # tg-media-downloader-bot
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/blob/main/LICENSE)
 
 ## EN
-tg-media-downloader-bot — practical engineering project by ShapArt.
-
-This repository is part of a modern, portfolio-grade GitHub standard: strong structure, clear onboarding, and predictable contribution flow.
+Telegram bot that downloads media by URL via yt-dlp pipeline.
 
 ## RU
-tg-media-downloader-bot — practical engineering project by ShapArt.
+Telegram bot that downloads media by URL via yt-dlp pipeline.
 
-Этот репозиторий оформлен в современном portfolio-стиле: сильная структура, понятный старт и прозрачный процесс вклада.
+## Why this project matters / Зачем нужен проект
+- Focuses on practical media optimization workflows.
+- Balances quality, speed, and automation constraints.
+- Useful for creator tooling and content pipelines.
 
-## Highlights / Что важно
-- Fast onboarding with clear usage entry points.
-- Standardized `.github` health files and contribution rules.
-- Ready for scaling with CI, tests, and roadmap growth.
+## Best for / Для кого
+- Backend developers and automation engineers.
+- Teams building bots, integrations, and internal tools.
 
-## Tech Stack / Технологии
-- Python
-- Automation, bots, and API tooling
-- Production-ready project layout
-
-## Quick Start / Быстрый старт
+## Quick Run / Быстрый запуск
 - Create virtual environment
-- Install dependencies
-- Run main module/script
+- Install dependencies from `requirements.txt`
+- Run the main entrypoint from repository docs
 
-## Structure / Структура
-- `README.md` - overview and usage entry point.
-- `.github/` - policies, templates, workflow config.
-- Source directories - implementation and assets.
+## Repository Compass / Навигация
+- README.md - product context and run flow.
+- .github/ - contribution standards, templates, CI policy.
+- Source directories - core implementation and assets.
 
-## Roadmap / Планы
-- Improve verification and automation coverage.
-- Expand examples and practical scenarios.
-- Keep docs synchronized with real behavior.
+## Topics / Темы
+$topics
 
-## Contributing / Вклад
-See `.github/CONTRIBUTING.md`.
+## Contribution / Вклад
+See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
-See `LICENSE`.
+See LICENSE.
