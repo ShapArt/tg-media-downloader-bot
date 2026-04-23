@@ -1,5 +1,8 @@
 # tg-media-downloader-bot
 
+![Social Preview](https://raw.githubusercontent.com/ShapArt/tg-media-downloader-bot/main/.github/social-preview.png)
+
+
 [![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/commits/main)
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/blob/main/LICENSE)
@@ -37,3 +40,5 @@ See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
 See LICENSE.
+
+
