@@ -1,44 +1,56 @@
 # tg-media-downloader-bot
 
-![Social Preview](https://raw.githubusercontent.com/ShapArt/tg-media-downloader-bot/main/.github/social-preview.png)
+Telegram bot project for downloading media from URLs through a simple chat-based workflow.
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/tg-media-downloader-bot?style=for-the-badge)](https://github.com/ShapArt/tg-media-downloader-bot/blob/main/LICENSE)
+## Why this project exists
+
+Downloading media often becomes annoying when the user has to switch between services, copy links, use separate tools, and move files manually afterwards.
+
+A Telegram bot is a natural interface for this kind of task: send a link, let the bot process it, and receive the result in the same place where the request started.
+
+## What it is
+
+`tg-media-downloader-bot` is best positioned as a focused automation bot.
+
+It is not trying to be a full media management platform. Its value is in providing a lightweight flow for URL-based media retrieval inside Telegram.
+
+## Best use cases
+
+- quickly downloading media from a link;
+- simplifying repeated media retrieval tasks;
+- experimenting with bot-based automation around content workflows;
+- building a small but useful user-facing Telegram utility.
+
+## Technical positioning
+
+This repository belongs to the **automation bot** part of the portfolio.
+
+A strong version of this project should clearly document:
+
+- supported input formats or services;
+- bot commands;
+- deployment steps;
+- storage behavior;
+- limits and failure cases.
+
+## Portfolio value
+
+This project shows a practical instinct: turn a repeated user action into a chat-based automation flow with a low-friction interface.
+
+It is a supporting project, not the main flagship, but it fits well next to larger Telegram and backend automation work.
+
+## What would make it stronger
+
+- command list;
+- example conversation flow;
+- deployment instructions;
+- note on file size limits;
+- note on supported platforms or URL types.
 
 ## RU
-**Слоган:** Медиа по ссылке без лишних шагов
 
-Telegram-бот для загрузки медиа по URL: просто, быстро, масштабируемо.
-
-### Что даёт проект
-- Быстрый запуск и понятный вход в задачу.
-- Практичный сценарий использования, а не «игрушечный» демо-кейс.
-- Поддерживаемая структура для роста и автоматизации.
-
-### Быстрый старт
-- Открой README/структуру проекта.
-- Запусти команды из текущего репозитория.
-- Используй шаблоны в .github/ для стандартизированного вклада.
-
-### Для кого
-- Инженеры, которым важен результат, а не шум.
-- Команды, ценящие скорость внедрения и качество кода.
-
-## EN
-**Tagline:** Медиа по ссылке без лишних шагов
-
-Telegram bot for URL-based media downloading with reliable automation flow.
-
-### Value proposition
-- Fast onboarding and clear project intent.
-- Production-minded structure for scaling and automation.
-- Consistent contribution and quality standards.
-
-## Contribution
-See .github/CONTRIBUTING.md.
+Telegram-бот для загрузки медиа по ссылке. Его лучше показывать как небольшую, но прикладную automation-утилиту: пользователь отправляет ссылку, бот берёт на себя рутинную часть.
 
 ## License
-See LICENSE.
 
-
+See `LICENSE`.
